@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Playing sound on click</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<audio id="monkeyAudio">
+  <source src="audio/monkey.ogg" type="audio/ogg">
+  <source src="audio/monkey.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio id="hornAudio">
+	<source src="audio/horn.ogg" type="audio/ogg">
+	<source src="audio/horn.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+  </audio>
+
+<p>Click the buttons to play or pause the audio.</p>
+
+<button onclick="playMonkeyAudio()" type="button">Play Monkey Audio</button>
+<button onclick="pauseMonkeyAudio()" type="button">Pause Monkey Audio</button> 
+<button onclick="playHornAudio()" type="button">Play Horn Audio</button>
+<button onclick="pauseHornAudio()" type="button">Pause Horn Audio</button> 
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
